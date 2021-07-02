@@ -1,0 +1,16 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "JWT_VALIDATOR_ENDPOINT": "https://wsjwtfe.eselect.com.co/apiJwtFe/validador/V10/validarToken",
+    "JWT_CLAIMS_ENDPOINT": "https://wsjwtfe.eselect.com.co/apiJwtFe/validador/V10/decodificarToken",
+    "ENCRYPT_ENDPOINT": "https://fxrisencryptordesa.azurewebsites.net/api/encryptor/aes/encrypt",
+    "DOWNLOAD_DOMAIN": "https://fxtigodownload.azurewebsites.net/api/download",
+    "DATE_ONDEMAND": "2019-01-01",
+    "ONDEMAND_ENDPOINT": "https://felec.computec.com/tigo/api/v1/documents",
+    "dbfacturaelectronica": "Server=tcp:serverfacturaelectronica.database.windows.net,1433;Initial Catalog=Dbfacturaelectronica;Persist Security Info=False;User ID=user_fe;Password=*Factura2019*;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=60;",
+    "MOVIL": "8301149211",
+    "FIJO": "9000923859;8909050652"
+  }
+}
